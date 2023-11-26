@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T17:01:37.153Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FJvxrn-DtzQKl3H2XOJ2" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T17:02:14.264Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="R9HHkUX7-xXGS0f29n-V" version="22.1.4" type="github">
   <diagram name="Page-1" id="3_SZhPXyhLZ41nryWoxp">
-    <mxGraphModel dx="622" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1340" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -243,6 +243,9 @@
         </mxCell>
         <mxCell id="hM2QUH2dccZRRM58M-V_-134" value="Parameterized Rotation Gates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontFamily=Courier New;" vertex="1" parent="1">
           <mxGeometry x="370" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hM2QUH2dccZRRM58M-V_-135" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 27px;&quot;&gt;A-01&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="241.5" y="170" width="205" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
