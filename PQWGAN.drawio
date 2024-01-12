@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T14:45:14.738Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KGdNFNWWalWeFVLsPgJ0" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-12T14:48:12.689Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iUH6FM1of5P7GGK-1q6L" version="22.1.18" type="github">
   <diagram name="Page-1" id="757euaS2oAXiSTY-SthU">
-    <mxGraphModel dx="837" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="2232" dy="1227" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BSYq-ft0iuZ4jn7_VfeT-107" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF8000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="830" height="810" as="geometry" />
+        </mxCell>
         <mxCell id="BSYq-ft0iuZ4jn7_VfeT-49" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="679.84" y="620" as="sourcePoint" />
@@ -62,7 +65,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BSYq-ft0iuZ4jn7_VfeT-6" value="Encoding using &lt;i&gt;R&lt;sub&gt;y&lt;/sub&gt;&lt;/i&gt; rotations parameterized on the elements of &lt;i&gt;z.&lt;/i&gt; Each element of &lt;i&gt;z&lt;/i&gt; is the rotation angle for the corresponding &lt;i&gt;R&lt;sub&gt;y&lt;/sub&gt;&lt;/i&gt; gate." style="text;html=1;strokeColor=#CC0066;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="420" width="290" height="50" as="geometry" />
+          <mxGeometry x="305" y="420" width="290" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BSYq-ft0iuZ4jn7_VfeT-7" value="[z&lt;sub&gt;1&lt;/sub&gt;,z&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;2&lt;/sub&gt;, z&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;3&lt;/sub&gt;,..., z&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;N&lt;/sub&gt;]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="670" width="130" height="30" as="geometry" />
@@ -250,6 +253,9 @@
               <mxPoint x="1050" y="409" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BSYq-ft0iuZ4jn7_VfeT-108" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Quantum Generator&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="601" y="90" width="239" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
