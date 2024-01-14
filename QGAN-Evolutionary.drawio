@@ -1,23 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T21:11:10.714Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VuukD6mDPxfVVAaR9cSp" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-14T21:51:43.058Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KZguSjn1Zy9W3EmCTdW1" version="22.1.18" type="github">
   <diagram name="Page-1" id="MrkFxBO0HFTzAjY1sy6q">
-    <mxGraphModel dx="1333" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1561" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-1" value="INITIALIZATION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="45" y="242" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-3" value="SELECT AN ACTION&lt;br&gt;(Add, Delete, Swap, Mutate)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-3" value="SELECT AN ACTION RANDOMLY&lt;br&gt;(Add, Delete, Swap, Mutate)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="539" y="132" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-4" value="ACTION APPLICATION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-4" value="ACTION APPLICATION TO EACH CHILD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="539" y="212" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-5" value="how is the action selected" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="810" y="82" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-6" value="what does th parent ansatz look like" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="400" width="210" height="30" as="geometry" />
+        <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-5" value="&lt;ul&gt;&lt;li&gt;Add: add a random quantum gate (from the chosen set)&lt;/li&gt;&lt;li&gt;Delete: delete a randomly chosen gate from the circuit&lt;/li&gt;&lt;li&gt;Swap: a gate in the circuit is replaced with a different gate&lt;/li&gt;&lt;li&gt;Mutate: the parameters (angle) of a gate are slightly mutated&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="112" width="390" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-7" value="GENERATE n COPIES OF THE INDIVIDUAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="539" y="52" width="190" height="60" as="geometry" />
@@ -49,7 +46,7 @@
           <mxGeometry x="390" y="307" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-15" value="OUTPUT THE BEST ANSATZ SOLUTION AND RESULTS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="242" width="160" height="160" as="geometry" />
+          <mxGeometry x="1130" y="240" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="6-eAmq_C9QIP6gQ2Tfnc-111" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=1 1;editable=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
