@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T20:19:12.239Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gYH3thKKCZDX-9E1rhzX" version="22.1.18" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-20T13:35:34.776Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="V8d2Z4F-C6JpO2Hq2z7f" version="22.1.21" type="github" pages="2">
   <diagram name="PQWGAN - original" id="757euaS2oAXiSTY-SthU">
-    <mxGraphModel dx="1667" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="6273" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -522,8 +522,8 @@
         <mxCell id="BSYq-ft0iuZ4jn7_VfeT-220" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;28 Generators&amp;nbsp; (one per image row)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="1060" width="250" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="BSYq-ft0iuZ4jn7_VfeT-221" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Each &lt;i&gt;z&lt;/i&gt; has 28 elements, one per pixel in each row (so one per column)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="20" y="860" width="200" height="180" as="geometry" />
+        <mxCell id="BSYq-ft0iuZ4jn7_VfeT-221" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Each &lt;i&gt;z&lt;/i&gt; has q elements. q has to be s.t. 2**q &amp;lt; pixels per patch.&lt;br&gt;&lt;br&gt;E.g., to produce a row of 28 pixels you need at least 5 qubits&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="860" width="230" height="280" as="geometry" />
         </mxCell>
         <mxCell id="BSYq-ft0iuZ4jn7_VfeT-223" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="BSYq-ft0iuZ4jn7_VfeT-221" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -630,6 +630,9 @@
         </mxCell>
         <mxCell id="BSYq-ft0iuZ4jn7_VfeT-257" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Boolenan (True, False / Real, Generated)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2910" y="587.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LuE8FEkhi0KBnvDbKWHI-1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;z is the same Is it their weights that change??&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="1140" width="550" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
