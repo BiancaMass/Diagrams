@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T16:32:05.044Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="z6a116BJtdC112q7W73A" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-22T17:34:38.702Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kGjyIRu3LeMmzoiJqAMq" version="24.2.5" type="github">
   <diagram name="Page-1" id="STTR_JmyfDJ_sBsCt_qA">
-    <mxGraphModel dx="1990" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1735" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7tac-9viq97zNr0VMJda-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFDFDB;" vertex="1" parent="1">
+          <mxGeometry x="970" y="900" width="250" height="620" as="geometry" />
+        </mxCell>
         <mxCell id="hJqNSOrnAG2oeJH1K-Xi-82" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="920" y="1060" as="sourcePoint" />
@@ -240,11 +243,14 @@
         <mxCell id="7tac-9viq97zNr0VMJda-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="776" y="1419.8" width="50" height="80.2" as="geometry" />
         </mxCell>
-        <mxCell id="7tac-9viq97zNr0VMJda-4" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 24px;&quot;&gt;Data qubits&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1140" width="170" height="30" as="geometry" />
+        <mxCell id="7tac-9viq97zNr0VMJda-4" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 32px;&quot;&gt;Data qubits&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1140" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7tac-9viq97zNr0VMJda-5" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 24px;&quot;&gt;Ancilla&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="7tac-9viq97zNr0VMJda-5" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 32px;&quot;&gt;Ancilla&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="650" y="1444.9" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7tac-9viq97zNr0VMJda-8" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 32px;&quot;&gt;State Embedding&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="965" y="860" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
