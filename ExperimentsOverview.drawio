@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T17:01:38.307Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="T9VrEya09_zpwr2f2IFO" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T17:02:21.815Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="WGodlsVSSo1IpR3hNV8J" version="24.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2790" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -222,11 +222,32 @@
         <mxCell id="HijYN62Fm5v3ZXcLR0Zq-108" value="&lt;font face=&quot;Georgia&quot; color=&quot;#ff8000&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;i&gt;Increased training time&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1400" y="1000" width="200" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="HijYN62Fm5v3ZXcLR0Zq-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HijYN62Fm5v3ZXcLR0Zq-109" target="HijYN62Fm5v3ZXcLR0Zq-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HijYN62Fm5v3ZXcLR0Zq-109" value="&lt;font color=&quot;#336600&quot; style=&quot;font-size: 18px;&quot; face=&quot;Georgia&quot;&gt;Best found ansatz&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="800" y="1080" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HijYN62Fm5v3ZXcLR0Zq-110" value="&lt;font color=&quot;#6929ff&quot; face=&quot;Georgia&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;i style=&quot;&quot;&gt;layers&lt;/i&gt;&amp;nbsp;2, 3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="1160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HijYN62Fm5v3ZXcLR0Zq-116" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HijYN62Fm5v3ZXcLR0Zq-103" target="HijYN62Fm5v3ZXcLR0Zq-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="1010" as="sourcePoint" />
+            <mxPoint x="1020" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HijYN62Fm5v3ZXcLR0Zq-118" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HijYN62Fm5v3ZXcLR0Zq-109" target="HijYN62Fm5v3ZXcLR0Zq-108">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="1010" as="sourcePoint" />
+            <mxPoint x="1020" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1500" y="1100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
