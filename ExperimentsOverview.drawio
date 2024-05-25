@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T13:02:14.123Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="5gv-lWrY92vmVjDuqagx" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T13:04:04.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="4nYgfn-c5sfkiP1Zckij" version="24.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1837" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -326,7 +326,7 @@
             <mxPoint x="1350" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kYZKPBc_Z_518Uw8DQaM-27" value="&lt;font face=&quot;Helvetica&quot; color=&quot;#006600&quot; style=&quot;font-size: 30px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Best found ansatz&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;shadow=1;strokeColor=#006600;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kYZKPBc_Z_518Uw8DQaM-27" value="&lt;font color=&quot;#ffffff&quot; face=&quot;Helvetica&quot; style=&quot;font-size: 30px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Best found ansatz&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;rotation=-90;shadow=1;strokeColor=#000000;fillColor=#77B0AB;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1110" y="370" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kYZKPBc_Z_518Uw8DQaM-28" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="kYZKPBc_Z_518Uw8DQaM-27">
