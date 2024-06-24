@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T20:12:44.196Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Tom0NLvcWAFkx9BkIZnG" version="24.6.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-24T20:24:49.662Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Az51sBmQtSQQL6TxmWjV" version="24.6.2" type="github" pages="3">
   <diagram name="Vincenzo&#39;s" id="MrkFxBO0HFTzAjY1sy6q">
     <mxGraphModel dx="1592" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -235,88 +235,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ja4JCyMOzus8uTtSLbJK-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Select one or more actions at random (Add, Delete, Swap, Mutate)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1040" width="200" height="80" as="geometry" />
+          <mxGeometry x="560" y="880" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ja4JCyMOzus8uTtSLbJK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-3" target="Ja4JCyMOzus8uTtSLbJK-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="1020" />
-              <mxPoint x="380" y="1020" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Ja4JCyMOzus8uTtSLbJK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-3" target="Ja4JCyMOzus8uTtSLbJK-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ja4JCyMOzus8uTtSLbJK-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Generate&amp;nbsp;&lt;i&gt;N&lt;/i&gt; copies of the best ansatz&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="930" width="200" height="80" as="geometry" />
+          <mxGeometry x="320" y="820" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ja4JCyMOzus8uTtSLbJK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-8" target="Ja4JCyMOzus8uTtSLbJK-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ja4JCyMOzus8uTtSLbJK-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Apply action(s) to the ansatz to generate offspring&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1140" width="200" height="80" as="geometry" />
+          <mxGeometry x="560" y="990" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ja4JCyMOzus8uTtSLbJK-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-9" target="Ja4JCyMOzus8uTtSLbJK-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="300" y="910" />
-              <mxPoint x="340" y="910" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Ja4JCyMOzus8uTtSLbJK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-9" target="Ja4JCyMOzus8uTtSLbJK-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ja4JCyMOzus8uTtSLbJK-9" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Initialize the first ansatz&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="820" width="200" height="80" as="geometry" />
+          <mxGeometry x="80" y="820" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ja4JCyMOzus8uTtSLbJK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-10" target="Ja4JCyMOzus8uTtSLbJK-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="1280" />
-              <mxPoint x="240" y="1080" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Ja4JCyMOzus8uTtSLbJK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-10" target="Ja4JCyMOzus8uTtSLbJK-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja4JCyMOzus8uTtSLbJK-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Repeat for each offspring&amp;nbsp;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" vertex="1" connectable="0" parent="Ja4JCyMOzus8uTtSLbJK-16">
-          <mxGeometry x="-0.053" y="-2" relative="1" as="geometry">
+        <mxCell id="Ja4JCyMOzus8uTtSLbJK-31" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;Repeat for each offspring&amp;nbsp;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" vertex="1" connectable="0" parent="Ja4JCyMOzus8uTtSLbJK-30">
+          <mxGeometry x="0.0133" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ja4JCyMOzus8uTtSLbJK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-10" target="Ja4JCyMOzus8uTtSLbJK-11">
+        <mxCell id="Ja4JCyMOzus8uTtSLbJK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-10" target="Ja4JCyMOzus8uTtSLbJK-11">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="1250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="1330" />
-              <mxPoint x="340" y="1330" />
+              <mxPoint x="660" y="1220" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Ja4JCyMOzus8uTtSLbJK-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Evaluate the fitness of each offspring.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1240" width="200" height="80" as="geometry" />
+          <mxGeometry x="560" y="1100" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ja4JCyMOzus8uTtSLbJK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-11" target="Ja4JCyMOzus8uTtSLbJK-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="340" y="1440" />
-              <mxPoint x="300" y="1440" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Ja4JCyMOzus8uTtSLbJK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-11" target="Ja4JCyMOzus8uTtSLbJK-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ja4JCyMOzus8uTtSLbJK-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;If any offspring outperforms parent, it becomes the new parent&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1350" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Ja4JCyMOzus8uTtSLbJK-12" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Output the best found ansatz&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1460" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Ja4JCyMOzus8uTtSLbJK-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-11" target="Ja4JCyMOzus8uTtSLbJK-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="1240" as="sourcePoint" />
-            <mxPoint x="160" y="1380" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="160" y="1390" />
-              <mxPoint x="160" y="970" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ja4JCyMOzus8uTtSLbJK-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Repeat as many times as the number of generations&amp;nbsp;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" vertex="1" connectable="0" parent="Ja4JCyMOzus8uTtSLbJK-14">
-          <mxGeometry x="0.045" y="-1" relative="1" as="geometry">
+        <mxCell id="Ja4JCyMOzus8uTtSLbJK-42" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;Repat n_generations times&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" vertex="1" connectable="0" parent="Ja4JCyMOzus8uTtSLbJK-37">
+          <mxGeometry x="-0.069" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ja4JCyMOzus8uTtSLbJK-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ja4JCyMOzus8uTtSLbJK-11" target="Ja4JCyMOzus8uTtSLbJK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja4JCyMOzus8uTtSLbJK-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;If any offspring outperforms parent, it becomes the new parent&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1180" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ja4JCyMOzus8uTtSLbJK-12" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Output the best found ansatz&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1180" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
